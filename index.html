@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <!-- ========================================
+       文件结构说明
+       ======================================== -->
+  <!-- 
+  这是一个学术项目页面模板，主要包含以下部分：
+  1. 头部元信息：社交媒体分享、SEO优化
+  2. 标题区域：项目标题、作者信息、相关链接
+  3. 首屏视频：项目演示视频
+  4. 摘要部分：项目简介
+  5. 图片轮播：项目结果展示
+  6. YouTube视频：详细演示
+  7. 视频轮播：更多演示内容
+  8. 海报展示：PDF格式的项目海报
+  9. BibTeX引用：学术引用格式
+  10. 页脚：版权和模板信息
+  
+  使用说明：
+  - 替换所有占位符内容（如 YOUR REPO HERE）
+  - 更新图片和视频路径
+  - 修改作者信息和机构信息
+  - 根据需要调整各个部分
+  -->
+  
+  <!-- 社交媒体横幅的元标签，需根据实际情况填写 -->
+  <!-- 用于社交媒体分享时显示的信息 -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- 横幅图片路径，建议尺寸1200x630 -->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <!-- Twitter 横幅相关元标签 -->
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Twitter 横幅图片路径，建议尺寸1200x600 -->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- 关键词，用于SEO -->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DRAGE: Dual-Gaps Robust Alignment for Text-Based Person Search</title>
+  <!-- 网站图标 -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <!-- 字体和样式表 -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <!-- 脚本文件 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <!-- 顶部标题和作者信息 -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">DRAGE: Dual-Gaps Robust Alignment for Text-Based Person Search</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- 论文作者 -->
+              <span class="author-block">
+                Anonymous
+              </span>
+            </div>
+
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- 论文PDF链接 -->
+                      <!-- <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span> -->
+
+                    <!-- 补充材料PDF链接 -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github代码链接 -->
+                  <!-- <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+                <!-- ArXiv摘要链接 -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 首屏图片（原视频位置） -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/1_00.png" alt="DRAGE Framework Overview" style="max-width:100%; height:auto;"/>
+      <h2 class="subtitle has-text-centered">
+        Overview of Semantic Intra-Modality Regularization (SIMR) method. This approach is implemented through vision-to-vision (v2v) and text-to-text (t2t) contrastive losses, adjusting embedding distances within each modality based on semantic distances between samples, ensuring that semantically similar samples maintain appropriate distances in the embedding space.      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- 论文摘要部分 -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Text-based Person Search (TBPS), which aims to retrieve individuals from a gallery using natural language descriptions, is a critical task with broad applications. However, its performance is fundamentally limited by two challenges: the <strong>semantic gap</strong>, caused by noisy or inconsistent image-text correspondences, and the <strong>modality gap</strong>, arising from the inherent representational differences between visual and textual data. To address these challenges simultaneously, we propose a novel framework, the <strong>D</strong>ual-Gaps <strong>R</strong>obust <strong>A</strong>ligned <strong>G</strong>eneral <strong>E</strong>mbedding. Specifically, DRAGE integrates two mechanisms: (1) Semantic Embedding Reliability Division (SERD), which partitions the training data into clean and noisy subsets to isolate reliable image-text pairs for improved learning; and (2) Semantic Intra-Modality Regularization (SIMR), which optimizes intra-modal distances to enhance cross-modal alignment. Extensive experiments on several benchmark datasets demonstrate that DRAGE significantly outperforms existing state-of-the-art methods across multiple evaluation metrics, proving its effectiveness and robustness.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gap示意图 -->
+<div class="container is-max-desktop" style="margin-top: 2em; margin-bottom: 2em;">
+  <div class="columns is-centered">
+    <div class="column is-four-fifths has-text-centered">
+      <img src="static/images/Fig1noisy_00.png" alt="Semantic Gap Illustration" style="max-width:110%; height:auto; margin-top:2em;"/>
+      <p style="margin-top:1em; text-align:justify;">
+        Illustration of the <b>semantic gap</b>: Examples of noisy or inconsistent image-text correspondences in text-based person search datasets.
+      </p>
+    </div>
+  </div>
+  <div class="columns is-centered">
+    <div class="column is-four-fifths has-text-centered">
+      <img src="static/images/710_00.png" alt="Modality Gap Illustration" style="max-width:100%; height:auto; margin-top:2em;"/>
+      <p style="margin-top:1em; text-align:justify;">
+        Illustration of the <b>modality gap</b>: The distribution of image and text embeddings during training epochs, showing the inherent representational differences between visual and textual data.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- 检索结果对比图片及说明 -->
+<div class="container is-max-desktop" style="margin-top: 2em; margin-bottom: 2em;">
+  <div class="columns is-centered">
+    <div class="column is-four-fifths has-text-centered">
+      <img src="static/images/S3.png" alt="Comparison of IRRA and DRAGE on CUHK-PEDES" style="max-width:100%; height:auto;"/>
+      <p style="margin-top:1em; text-align:justify;">
+        A comparison of the top-10 retrieved results on the CUHK-PEDES dataset between the baseline IRRA (first row) and our DRAGE (second row) is presented for each text query. The matched and mismatched person images are highlighted with red and green rectangles, respectively. Additionally, the first column of each row represents the ground truth.
+      </p>
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Experimental Results</h2>
+
+    <div class="columns is-centered">
+      <div class="column is-four-fifths has-text-centered">
+        <img src="static/images/CUHK-PEDES.png" alt="CUHK-PEDES Results" style="max-width:100%; height:auto;"/>
+        <p style="margin-top:1em; text-align:justify;">
+          <b>CUHK-PEDES:</b> Experimental results on the CUHK-PEDES dataset. Our DRAGE method achieves the best performance across all metrics, significantly outperforming existing methods.
+        </p>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-four-fifths has-text-centered">
+        <img src="static/images/ICFG-PEDES.png" alt="ICFG-PEDES Results" style="max-width:100%; height:auto;"/>
+        <p style="margin-top:1em; text-align:justify;">
+          <b>ICFG-PEDES:</b> Experimental results on the ICFG-PEDES dataset. DRAGE also achieves state-of-the-art retrieval performance on this dataset.
+        </p>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-four-fifths has-text-centered">
+        <img src="static/images/RSTPReid.png" alt="RSTPReid Results" style="max-width:100%; height:auto;"/>
+        <p style="margin-top:1em; text-align:justify;">
+          <b>RSTPReid:</b> Experimental results on the RSTPReid dataset. DRAGE demonstrates strong performance, validating the generalization and robustness of our approach.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 图片轮播图 -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/S31.png" alt="Sensitivity Analysis S31"/>
+          <h2 class="subtitle has-text-centered">
+            Sensitivity Analysis: Selection Ratio R
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/S_2.png" alt="Sensitivity Analysis S_2"/>
+          <h2 class="subtitle has-text-centered">
+            Sensitivity Analysis: τ
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/S_1 (1)_00.png" alt="Sensitivity Analysis S_1 (1)_00"/>
+          <h2 class="subtitle has-text-centered">
+            Sensitivity Analysis: α
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 实验结果部分 -->
+
+<!-- Youtube 视频嵌入 -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- 视频轮播图 -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- 论文海报展示 -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+
+<!-- BibTex 引用信息 -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+
+  <!-- <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<!-- 统计代码（可选） -->
+  
+<!-- 你可以通过 statcounter.com 添加访问统计 -->
+
+    <!-- 统计代码结束 -->
+
+  </body>
+  </html>
